@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header{
+    background: url(../../shopka/img/mycard/mycard_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.container form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    width: 550px;
+    padding-top: 160px;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    margin-top: 20px;
+}
+
+.inputBox input::placeholder {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+
+}
+
+.card__number_input,
+.card__holder_input,
+.cvv__input,
+.month__input,
+.year__input {
+    width: 100%;
+    margin-top:10px ;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+}
+
+.sim {
+    width: 50px;
+    height: 70px;
+    margin: 35px 40px 0 0;
+}
+
+.uzkard {
+    width: 80px;
+    height: 80px;
+    margin:0 -10px 0 0;
+    padding-bottom: 5px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 15px;
+}
+
+.floxbox .inputBox {
+    flex: 1 1 150px;
+}
+
+.submit__btn {
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    border: none;
+}
+
+.submit__btn:hover {
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.container .card__container {
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.card__container .front {
+    background: linear-gradient(45deg, rgb(248, 167, 37), rgb(237, 219, 160));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    padding: 20px;
+    transition:transform 0.4s ease-out;
+
+}
+
+.card__container .front .image {
+    margin:20px 0 0 5px;
+
+}
+
+.card__container .front .image img {
+    height: 50px;
+}
+
+.card__container .front .card__number_box {
+    padding: 20px 0 0 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.card__container .front .flexbox {
+    display: flex;
+}
+
+.card__container .front .flexbox .box:nth-child(1) {
+    margin-right: auto;
+}
+
+.card__container .front .flexbox .box {
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

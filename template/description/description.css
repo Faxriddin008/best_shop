@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+ul {
+    list-style: none;
+}
+
+/* =========== HEADER ========= */
+/* =========== NAV ========= */
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 10px 11px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 30px;
+}
+
+
+.header__logo_s {
+    padding: 2px 0 0 10px;
+    background: linear-gradient(90deg, #2979FF 0%, #4C589E 100%);
+    border-radius: 6px;
+    color: #fff;
+    width: 36px;
+    height: 38px;
+}
+
+.header__logo_title {
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #0C2146;
+    margin-left: 12px;
+}
+
+.search input {
+    width: 558px;
+    background: #EDEDF0;
+    outline: none;
+    padding: 5px 10px 5px 40px;
+    border: none;
+    border-radius: 99px;
+}
+
+.search input::placeholder {
+    text-transform: capitalize;
+    color: #b6b6b7;
+    padding: 10px 5px;
+}
+
+.search__link_left {
+    position: absolute;
+    padding: 4px 12px;
+}
+
+.search__link_right {
+    position: absolute;
+    margin: 4px 20px 0 -28px;
+}
+
+.nav__list_link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 158%;
+    color: #5A5B6A;
+}
+
+.nav__list_link:nth-last-of-type(1) {
+    margin-right: 28px;
+}
+
+.nav__list_consummer {
+    font-size: 16px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0075em;
+    color: #2264D1;
+    margin-left: 30px;
+}
+
+.nav__list_two {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.nav__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.0075em;
+    color: #2264D1;
+    padding: 8px 12px;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-left: 25px;
+}
+
+.header__logo:hover,
+.nav__list_link:hover,
+.nav__list_consummer:hover,
+.nav__link:hover {
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #fff;
+    background: #4481e3;
+}
+
+/* =========== /NAV ========= */
+/* =========== HEADER-CONTENT========= */
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.header__link {
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+    color: #787885;
+    font-size: 14px;
+    padding: 5px 9px;
+    letter-spacing: 0.018em;
+}
+
+
+.header__link:hover {
+    background: #EBF2FF;
+    text-decoration: none;
+    color: #2979FF;
+    border-radius: 6px;
+}
+
+/* =========== /HEADER-CONTENT========= */
+/* =========== /HEADER ========= */
+/* =========== MAIN ========= */
+
+.main__left_img {
+    width: max-content;
+    height: 500px;
+}
+
+.main_left {}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_right {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text {
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 30px 0;
+    text-align: start;
+}
+
+.right_cont div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 25px;
+    display: block;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.footer__right_img {
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.footer___right_link {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #171427;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 16px;
+    padding: 0 20px;
+    transition: 0.5s;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(35, 45, 62, 0.24), 0px 2px 4px rgba(26, 38, 57, 0.24);
+
+}
+
+.footer___right_link:hover {
+    text-decoration: none;
+    box-shadow: 4px 4px 5px 5px rgba(35, 45, 62, 0.24), 0px 2px 4px rgba(26, 38, 57, 0.24);
+
+}
+
+/* =========== /MAIN ========= */
+/* =========== FOOTER ========= */
+/* =========== /FOOTER ========= */

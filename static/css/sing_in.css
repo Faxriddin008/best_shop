@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background: url(../../shopka/img/sing__in/charlesdeluvio-FK81rxilUXg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.header {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.sing__in {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 40px 10px 40px;
+
+}
+
+.sing__in_text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9ACBB;
+}
+
+.sing__in_title {
+    font-size: 34px;
+    line-height: 40px;
+    color: #4C506B;
+    padding-top: 30px;
+}
+
+.sing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+}
+
+.sing__input {
+    width: 411px;
+    height: 54px;
+    border: 1px solid #28A7FF;
+    border-radius: 12px;
+    padding-left: 60px;
+}
+
+.sing__input ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9ACBB;
+
+}
+
+.sing__img {
+    position: absolute;
+    margin: 18px 0 0 32px;
+}
+
+.sing__img_two {
+    position: absolute;
+    margin: 16px 0 0 32px;
+}
+
+.password {
+    padding-top: 40px;
+}
+
+/* ======== FORGOT ====== */
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 0 5px;
+}
+
+.forget__int {
+    display: flex;
+    align-items: center;
+}
+
+.forgot__input_text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9ACBB;
+    margin: 0 0 0 10px;
+}
+
+.forget__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #028BAF;
+    transition: 0.5s;
+}
+
+.forget__link:hover {
+    text-decoration: none;
+    color: #028BAF;
+}
+
+/* ======== /FORGOT ====== */
+/* ======== Google ====== */
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+
+.facebook__link {
+    padding: 8px 55px 9px 23px;
+    display: flex;
+    align-items: center;
+    background: #506ECC;
+    border-radius: 48px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9ACBB;
+
+}
+
+.facebook__link:hover,
+.google__link:hover {
+    text-decoration: none;
+    color: #A9ACBB;
+}
+
+.facebook__img {
+    margin-right: 10px;
+}
+
+.google__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9ACBB;
+    border: 1px solid #28A7FF;
+    border-radius: 48px;
+    padding: 9px 65px 9px 23px;
+}
+
+.google__img {
+    margin-right: 10px;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #28A7FF;
+    border: 1px solid #28A7FF;
+    border-radius: 48px;
+    padding: 14px 128px 32px 128px;
+    margin-top: 30px;
+}
+.sing__up_text{
+color: #4C506B;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.sing__up_link{
+ color: #28A7FF;
+ display: block;
+ margin-left: 10px;
+}
+.sing__up_link:hover{
+    text-decoration: none;
+}
+
+/* ======== /Google ====== */

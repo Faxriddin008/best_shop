@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+
+}
+
+body {
+    background: url(../../shopka/img/sing__in/charlesdeluvio-FK81rxilUXg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.header {
+    width: 420px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.row {
+    margin-left: 2px;
+}
+
+.row_input {
+    margin-top: 40px;
+}
+
+.mail {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 109px 0 0 20px;
+}
+
+.sing__in {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+
+
+}
+
+.foo {
+    margin-top: 90px;
+}
+
+.row {
+    padding-top: 40px;
+}
